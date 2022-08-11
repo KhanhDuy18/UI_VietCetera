@@ -1,0 +1,111 @@
+.MainVideo__containner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.MainVideo__containner .MainVideo__left {
+  width: 50%;
+}
+.MainVideo__left--video {
+  width: 100%;
+  position: relative;
+}
+.MainVideo__left--video img {
+  width: 100%;
+  opacity: 1;
+  border: 0px;
+  margin: 0px;
+  border: 0.5px solid #d9d9d9 !important;
+  border-radius: 8px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.MainVideo__left--video .MainVideo__left--playBtn {
+  position: absolute;
+  top: 0;
+  height: 64px;
+  width: 64px;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #fff;
+}
+.MainVideo__containner .MainVideo__right {
+  width: 50%;
+  padding-left: 32px;
+}
+.MainVideo__right--content .totalTime-like {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 24px;
+}
+.MainVideo__right--content .totalTime-like p {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  /* text-transform: capitalize; */
+  text-decoration: none !important;
+  display: inline-block;
+  font-family: Poppins, sans-serif;
+  text-decoration: none;
+}
+
+.MainVideo__right--content .totalTime-like span {
+  background-color: #757575;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  margin: 0 8px;
+}
+.MainVideo__right--content .totalTime-like div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.MainVideo__right--content h3 a {
+  text-transform: none;
+  font-size: 32px;
+  line-height: 32px;
+  color: #292929;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  font-family: Poppins, sans-serif;
+  text-decoration: none;
+  margin-bottom: 24px 4 !important;
+}
+@media (max-width: 740px) {
+  .MainVideo__containner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .MainVideo__containner .MainVideo__left {
+    width: 100%;
+  }
+  .MainVideo__containner .MainVideo__right {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 8px;
+  }
+  .MainVideo__right--content .totalTime-like p {
+    
+    font-size: 12px;
+    
+  }
+  .MainVideo__right--content h3 a {
+    font-size: 20px;
+    line-height: 24px;
+    color: #292929;
+  }
+}

@@ -1,0 +1,117 @@
+.MainPodcast__containner{
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+    
+}
+.MainPodcast__bg{
+    position: relative;
+}
+.MainPodcast__bg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.MainPodcast__bg .over{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100% ;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 40%, #000 80%);
+    opacity: 0.9;
+    border-radius: 8px;
+    z-index: 00000;
+}
+.up{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:16px;
+}
+.MainPodcast__content{
+    width: 80%;
+}
+.MainPodcast__content .topic-dateTime{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4px;
+}
+.MainPodcast__content .topic-dateTime a{
+    color: #bfbfbf;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    display: inline-block;
+    font-family: Poppins,sans-serif;
+
+    text-decoration: none;
+}
+.MainPodcast__content p{
+    color: #bfbfbf;
+    font-size: 12px;
+    font-family: Poppins,sans-serif;
+}
+.MainPodcast__content .topic-dateTime span{
+    background-color: #bfbfbf ;
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    margin: 0 8px;
+}
+.MainPodcast__content .topic-dateTime div{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.MainPodcast__content h3 a{
+    text-transform: none;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    font-family: Poppins,sans-serif;
+    text-decoration: none;
+}
+.MainPodcast__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: hsla(0,0%,100%,.4)    ;
+    font-weight: 400;
+    margin-top: 20px;   
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+}
+.MainPodcast__button:hover{
+    background-color: rgb(140, 137, 137);
+    border-radius: 50%;
+    transition: all .3s;
+}
+@media (max-width: 740px) {
+    .MainPodcast__content .topic-dateTime{
+        display: none;
+    }
+    .MainPodcast__content h3{
+        margin-bottom: 0;
+    }
+    .MainPodcast__content h3 a {
+        font-size: 16px;   
+        line-height: 24px; 
+    }
+    .MainPodcast__button{
+        width: 32px;
+        height: 32px;  
+        margin-top: 10px;   
+    }
+}

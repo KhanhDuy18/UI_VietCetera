@@ -1,14 +1,11 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import HomePage from "./page/HomePage/HomePage";
-import BlogSection from "./page/BlogSection/BlogSection";
-import BlogSectionHeaderBg from "./img/header-blogSection-bg.webp";
-import BlogDetail from "./page/BlogDetail/BlogDetail";
-// import  Router from "./routes"
-function App() {
-  return (
-    <Router>
+import HomePage from "../page/HomePage/HomePage";
+import BlogSection from "../page/BlogSection/BlogSection";
+import BlogDetail from "../page/BlogDetail/BlogDetail";
+import BlogSectionHeaderBg from "./../img/header-blogSection-bg.webp";
+export default function App() {
+  <Router>
     <Routes>
       <Route path="/" element={<HomePage />} />
     </Routes>
@@ -27,8 +24,5 @@ function App() {
     <Routes>
       <Route path="/BlogDetail" element={<BlogDetail />} />
     </Routes> 
-  </Router>
-  );
+  </Router>;
 }
-
-export default App;

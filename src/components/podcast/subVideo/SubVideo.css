@@ -1,0 +1,116 @@
+.SubvVideo__containner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SubvVideo__img{
+    width: 100%;
+}
+.SubvVideo__img{
+    width: 100%;
+    position: relative;
+}
+.SubvVideo__img img{
+    width: 100%;
+    opacity: 1;
+    border: 0px;
+    margin: 0px;
+    border: .5px solid #d9d9d9!important;
+    border-radius: 8px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.SubvVideo__img .SubvVideo__img--playBtn{
+    position: absolute;
+    top:0;
+    height: 64px;
+    width: 64px;
+    align-items: center;
+    background: rgba(0,0,0,.5);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;   
+    color: #fff; 
+}
+.SubvVideo__content .totalTime-like{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 24px;
+}
+.SubvVideo__content .totalTime-like p{
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    /* text-transform: capitalize; */
+    text-decoration: none !important;
+    display: inline-block;
+    font-family: Poppins,sans-serif;
+    text-decoration: none;
+}
+
+.SubvVideo__content .totalTime-like span{
+    background-color:#757575; 
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    margin: 0 8px;
+}
+.SubvVideo__content .totalTime-like div{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.SubvVideo__content h3 a{
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: #292929;
+    cursor: pointer;
+    display: -webkit-box;
+    margin: 8px 0 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration: none;
+}
+@media (max-width: 740px) {
+    .SubvVideo__containner{
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 12px;
+    }
+    .SubvVideo__img{
+        width: 100%;
+    }
+    .SubvVideo__content{
+        margin-left: 20px;
+    }
+    .SubvVideo__content h3 a{
+        margin: 0;
+        font-size: 16px;
+        line-height: 24px;  
+    }
+    .SubvVideo__content .totalTime-like{
+        margin-top: 8px;
+    }
+    .SubvVideo__content .totalTime-like p{
+        font-size: 12px;
+    }
+    .SubvVideo__img img{
+       margin-top: 12px;
+    }
+    .SubvVideo__img .SubvVideo__img--playBtn{
+        height: 24px;
+        width: 24px;
+        font-size: 8px;
+    }
+}

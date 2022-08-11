@@ -1,0 +1,103 @@
+.Article__content .Article__content--follow {
+  color: #555;
+  font-size: 12px;
+  letter-spacing: 0.08px;
+  line-height: 16px;
+  margin-left: 5px;
+  text-transform: lowercase;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 12px;
+}
+.Article__content .Article__content--follow p span {
+  margin-right: 5px;
+  font-size: 18px;
+}
+.ArticleBlogSection .Article__content--desc {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Merriweather, sans-serif;
+}
+
+.BlogSection__body--part2 .ArticleBlogSection .Article__author {
+  display: none;
+}
+.BlogSection__body--part2 .subArticle .Article__container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.BlogSection__body--part2 .subArticle .Article__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.BlogSection__body--part2 .subArticle .Article__content--img {
+  width: 80%;
+  margin-bottom: 17px;
+  box-sizing: border-box;
+  padding-top: 40px;
+  border-radius: 8px;
+  order: 1;
+  margin-right: 32px;
+}
+.BlogSection__body--part2 .subArticle .topic-title {
+  display: flex;
+  flex-direction: column;
+  order: 2;
+}
+.BlogSection__body--part2 .mainArticle .Article__content--title a {
+  font-size: 32px;
+}
+@media (max-width: 740px) {
+  .BlogSection__body--part1 .part1__content .Article__container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .BlogSection__body--part1 .part1__content .Article__content{
+    flex-direction: column;
+  }
+  .BlogSection__body--part1 .part1__content .Article__content--img {
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 0;
+    order: 1;
+  }
+
+  .BlogSection__body--part2 .part2__header h2 {
+    font-size: 24px;
+  }
+  .BlogSection__body--part2 .part2__content--colItem .mainArticle .Article__content{
+    flex-direction: column;
+  }
+  .BlogSection__body--part2 .part2__content--colItem .mainArticle .Article__content--img {
+    width: 100%;
+    margin-bottom: 16px;
+    padding-top: 0;
+    order: 1;
+  }
+  .BlogSection__body--part2 .mainArticle .Article__content--title a {
+    font-size: 20px !important;
+    font-weight: 600;
+  }
+  .BlogSection__body--part2 .mainArticle .ArticleBlogSection .Article__content--desc{
+    font-size: 14px;
+    font-weight:400;
+    margin-top: 6px;
+    margin-bottom: 0;
+  }
+  .BlogSection__body--part2 .subArticle .Article__content--img {
+    width: 70%;
+    margin-right: 12px;
+  }
+  .BlogSection__body--part2 .subArticle .Article__content--title a {
+    font-weight: 600;
+  }
+
+
+
+}

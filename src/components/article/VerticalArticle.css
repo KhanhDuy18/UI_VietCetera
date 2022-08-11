@@ -1,0 +1,199 @@
+.VerticalArticle__container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.VerticalArticle__content--img {
+  width: 30%;
+  margin-right: 32px;
+}
+.VerticalArticle__content--img img {
+  width: 100%;
+  border-radius: 8px;
+}
+.VerticalArticle__content--titleAndAuthor {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.VerticalArticle__content--titleAndAuthor .topic-title{
+ width: 100%;
+}
+
+.VerticalArticle__content--topic {
+  width: 100%;
+  margin-bottom: 8px;
+  text-align: left;
+}
+.VerticalArticle__content--topic a {
+  color: #0c5dff;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: Poppins, sans-serif;
+}
+.VerticalArticle__content--title {
+  width: 100%;
+  text-align: left;
+  max-height: 84px;
+}
+.VerticalArticle__content--title a {
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  color: #292929;
+  display: -webkit-box;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+}
+.VerticalArticle__content--desc {
+  font-size: 16px;
+  letter-spacing: 0.16px;
+  line-height: 28px;
+  font-weight: 400;
+  margin: 0 0 40px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  color: #555;
+  display: -webkit-box;
+  letter-spacing: 0.16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  text-align: left;
+  margin-top: 16px;
+  font-family: Poppins, sans-serif;
+
+}
+.VerticalArticle__author {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+.VerticalArticle__author--info {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.VerticalArticle__author--info .avt {
+  margin-right: 12px;
+}
+.VerticalArticle__author--info .avt img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.VerticalArticle__author--info .name--time a {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  color: #7a7a7a;
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+  text-decoration: none;
+}
+.VerticalArticle__author--info .name--time p {
+  color: #7a7a7a;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  line-height: 16px;
+  margin: 0;
+  white-space: nowrap;
+}
+.VerticalArticle__author--button {
+  font-weight: 400;
+  color: #777;
+  font-size: 24px;
+}
+@media (max-width:740px){
+  .VertialArticle__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .VertialArticle__content--img{
+    width: 50%;
+    box-sizing: border-box;
+    padding-top: 40px;
+    border-radius: 8px;
+    order: 2;
+    margin-bottom: 17px;
+  }
+  .topic-title{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+  }
+  .Article__author{
+    margin-top: -10px;
+  }
+  .Article__content--title a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .Article__author--info .name--time{
+    display: flex;
+  }
+  .Article__author--info .name--time .userName {
+    order: 2;
+    margin-left: 8px;
+    color: #555
+  }
+  .Article__author--info .name--time .timePost {
+    order: 1;
+  }
+
+  .section7__body--right  .Article__content--img{
+    order: 2;
+  }
+  .section7__body--left  .Article__content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .section7__body--left  .Article__content .Article__content--img{
+    order: 1;
+    width: 100%;
+    padding-top:0px;
+    margin-top: -24px;
+  }
+  .section7__body--left  .Article__content .Article__content--title a {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .section7__body--left  .Article__content .Article__content--desc {
+    display: none;
+  }
+  .section7__body--left .Article__author{
+    margin-top: 14px;
+  }
+  .section7__body--left .Article__author--info .name--time{
+    display: flex;
+    flex-direction: column;
+  }
+  .section7__body--left .Article__author--info .name--time .userName{
+    order: 1;
+    margin-left: 0px;
+  }
+}
