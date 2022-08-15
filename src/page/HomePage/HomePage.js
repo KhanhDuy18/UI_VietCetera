@@ -26,6 +26,7 @@ import MainVideoBg from "./../../img/MainVideo-bg.png";
 import SubVideoBg from "./../../img/SubVideo-bg.webp";
 import SubvVideo from "../../components/podcast/subVideo/SubvVideo";
 import Section6FooterImg from "./../../img/section6-footer-bg.png";
+import LoginFormHomePage from "../../components/loginForm/LoginFormHomePage";
 const listIndex = [1, 2, 3, 4, 5];
 const HomePage = () => {
   
@@ -43,7 +44,7 @@ const HomePage = () => {
           <Row>
             <div className="homepage__section1--body">
               <Row className="MainPodcast">
-                <Col xs={12} md={6} className="MainPodcast__col">
+                <Col xs={12} md={6}  className="MainPodcast__col">
                   <MainPodcast
                     background={MainPodcastBg}
                     contentTitle="Khoe 'cẩu lương' trên mạng có phải là biểu hiện của sự bất an?"
@@ -59,7 +60,7 @@ const HomePage = () => {
                 </Col>
               </Row>
               <Row className="Articles">
-                <Col xs={12} md={6} xl={3} className="Articles__col">
+                <Col xs={12} md={12} xl={3} className="Articles__col">
                   <AritcleMain
                     image={ArticleImg}
                     avt={ArticleAvt}
@@ -69,7 +70,7 @@ const HomePage = () => {
                     timePost="21 giờ trước"
                   />
                 </Col>
-                <Col xs={12} md={6} xl={3} className="Articles__col">
+                <Col xs={12} md={12} xl={3} className="Articles__col">
                   <AritcleMain
                     image={ArticleImg}
                     topic="Thương"
@@ -79,7 +80,7 @@ const HomePage = () => {
                     timePost="21 giờ trước"
                   />
                 </Col>
-                <Col xs={12} md={6} xl={3} className="Articles__col">
+                <Col xs={12} md={12} xl={3} className="Articles__col">
                   <AritcleMain
                     image={ArticleImg}
                     topic="Thương"
@@ -89,7 +90,7 @@ const HomePage = () => {
                     timePost="21 giờ trước"
                   />
                 </Col>
-                <Col xs={12} md={6} xl={3} className="Articles__col">
+                <Col xs={12} md={12} xl={3} className="Articles__col">
                   <AritcleMain
                     image={ArticleImg}
                     topic="Thương"
@@ -200,12 +201,7 @@ const HomePage = () => {
               />
             </div>
           </div>
-          <div className="homepage__section5--right">
-            <div className="section5__right--button">
-              <Button>
-                <span>NGHE TẤT CẢ</span>
-              </Button>
-            </div>
+          <div className="homepage__section5--right"> 
             <div className="section5__right--listListen">
               <SubListenPodcast
                 image={SubListenImg}
@@ -233,6 +229,11 @@ const HomePage = () => {
               />
             </div>
           </div>
+          <div className="homepage__section5--button">
+              <Button>
+                <span>NGHE TẤT CẢ</span>
+              </Button>
+            </div>
           <div className="homepage__section5--bottom">
             <img src={BannerSection5} alt="Banner"></img>
           </div>
@@ -295,7 +296,8 @@ const HomePage = () => {
               </Row>
             </div>
           </div>
-          <div className="homepage__section6--footer">
+          <LoginFormHomePage img={Section6FooterImg}/>
+          {/* <div className="homepage__section6--footer">
             <div className="section6--footer__left">
               <div className="section6__footer--img">
                 <img src={Section6FooterImg}></img>
@@ -327,7 +329,7 @@ const HomePage = () => {
                 </form>
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
         <section className="homepage__section7">
           <div className="homepage__section--header">

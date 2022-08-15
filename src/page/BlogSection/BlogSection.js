@@ -1,6 +1,6 @@
 import React from "react";
 import "./BlogSection.css";
-import "./BlogSectionReponsive.css"
+import "./BlogSectionReponsive.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { FiFacebook } from "react-icons/fi";
@@ -45,7 +45,100 @@ const BlogSection = (props) => {
         <section className="BlogSection__body">
           <section className="BlogSection__body--part1">
             <div className="part1__content">
-              <ArticleBlogSection
+              <Row>
+                <Col xs={12} sm={6} lg={6} xl={4}>
+                  {" "}
+                  <ArticleBlogSection
+                    image={BlogSectionArticleBg}
+                    topic="XU HƯỚNG CUỘC SỐNG"
+                    title="Cái chết của em bé 12 tuổi và câu hỏi lớn về quyền định đoạt sự sống"
+                    desc="Ai là người có quyền quyết định khi nào một sự sống không đáng để tiếp tục?"
+                    timePost="16 giờ trước"
+                  />
+                </Col>
+                <Col xs={12} sm={6} lg={6} xl={4}>
+                  {" "}
+                  <ArticleBlogSection
+                    image={BlogSectionArticleBg}
+                    topic="XU HƯỚNG CUỘC SỐNG"
+                    title="Cái chết của em bé 12 tuổi và câu hỏi lớn về quyền định đoạt sự sống"
+                    desc="Ai là người có quyền quyết định khi nào một sự sống không đáng để tiếp tục?"
+                    timePost="16 giờ trước"
+                  />
+                </Col>
+                <Col xs={12} sm={6} lg={6} xl={4}>
+                  {" "}
+                  <ArticleBlogSection
+                    image={BlogSectionArticleBg}
+                    topic="XU HƯỚNG CUỘC SỐNG"
+                    title="Cái chết của em bé 12 tuổi và câu hỏi lớn về quyền định đoạt sự sống"
+                    desc="Ai là người có quyền quyết định khi nào một sự sống không đáng để tiếp tục?"
+                    timePost="16 giờ trước"
+                  />
+                </Col>
+                <Col xs={12} sm={6} lg={6} xl={4}>
+                  {" "}
+                  <ArticleBlogSection
+                    image={BlogSectionArticleBg}
+                    topic="XU HƯỚNG CUỘC SỐNG"
+                    title="Cái chết của em bé 12 tuổi và câu hỏi lớn về quyền định đoạt sự sống"
+                    desc="Ai là người có quyền quyết định khi nào một sự sống không đáng để tiếp tục?"
+                    timePost="16 giờ trước"
+                  />
+                </Col>
+                <Col xs={12} sm={6} lg={6} xl={4}>
+                  {" "}
+                  <ArticleBlogSection
+                    image={BlogSectionArticleBg}
+                    topic="XU HƯỚNG CUỘC SỐNG"
+                    title="Cái chết của em bé 12 tuổi và câu hỏi lớn về quyền định đoạt sự sống"
+                    desc="Ai là người có quyền quyết định khi nào một sự sống không đáng để tiếp tục?"
+                    timePost="16 giờ trước"
+                  />
+                </Col>
+                <Col xs={12} sm={6} lg={6} xl={4}>
+                  {" "}
+                  <ArticleBlogSection
+                    image={BlogSectionArticleBg}
+                    topic="XU HƯỚNG CUỘC SỐNG"
+                    title="Cái chết của em bé 12 tuổi và câu hỏi lớn về quyền định đoạt sự sống"
+                    desc="Ai là người có quyền quyết định khi nào một sự sống không đáng để tiếp tục?"
+                    timePost="16 giờ trước"
+                  />
+                </Col>
+                <Col xs={12} sm={6} lg={6} xl={4}>
+                  {" "}
+                  <ArticleBlogSection
+                    image={BlogSectionArticleBg}
+                    topic="XU HƯỚNG CUỘC SỐNG"
+                    title="Cái chết của em bé 12 tuổi và câu hỏi lớn về quyền định đoạt sự sống"
+                    desc="Ai là người có quyền quyết định khi nào một sự sống không đáng để tiếp tục?"
+                    timePost="16 giờ trước"
+                  />
+                </Col>
+                <Col xs={12} sm={6} lg={6} xl={4}>
+                  {" "}
+                  <ArticleBlogSection
+                    image={BlogSectionArticleBg}
+                    topic="XU HƯỚNG CUỘC SỐNG"
+                    title="Cái chết của em bé 12 tuổi và câu hỏi lớn về quyền định đoạt sự sống"
+                    desc="Ai là người có quyền quyết định khi nào một sự sống không đáng để tiếp tục?"
+                    timePost="16 giờ trước"
+                  />
+                </Col>
+                <Col xs={12} sm={6} lg={6} xl={4}>
+                  {" "}
+                  <ArticleBlogSection
+                    image={BlogSectionArticleBg}
+                    topic="XU HƯỚNG CUỘC SỐNG"
+                    title="Cái chết của em bé 12 tuổi và câu hỏi lớn về quyền định đoạt sự sống"
+                    desc="Ai là người có quyền quyết định khi nào một sự sống không đáng để tiếp tục?"
+                    timePost="16 giờ trước"
+                  />
+                </Col>
+              </Row>
+
+              {/* <ArticleBlogSection
                 image={BlogSectionArticleBg}
                 topic="XU HƯỚNG CUỘC SỐNG"
                 title="Cái chết của em bé 12 tuổi và câu hỏi lớn về quyền định đoạt sự sống"
@@ -121,14 +214,7 @@ const BlogSection = (props) => {
                 title="Cái chết của em bé 12 tuổi và câu hỏi lớn về quyền định đoạt sự sống"
                 desc="Ai là người có quyền quyết định khi nào một sự sống không đáng để tiếp tục?"
                 timePost="16 giờ trước"
-              />
-              <ArticleBlogSection
-                image={BlogSectionArticleBg}
-                topic="XU HƯỚNG CUỘC SỐNG"
-                title="Cái chết của em bé 12 tuổi và câu hỏi lớn về quyền định đoạt sự sống"
-                desc="Ai là người có quyền quyết định khi nào một sự sống không đáng để tiếp tục?"
-                timePost="16 giờ trước"
-              />
+              /> */}
             </div>
             <div className="part1__button">
               <Button>Xem thêm bài viết</Button>
@@ -156,24 +242,26 @@ const BlogSection = (props) => {
                         topic="THƯƠNG"
                         title="Cởi Mở: Lần đầu lên giường với nhiều hơn một người"
                       />
-                       <ArticleBlogSection
+                      <ArticleBlogSection
                         image={BlogSectionArticleBg}
                         topic="THƯƠNG"
                         title="Cởi Mở: Lần đầu lên giường với nhiều hơn một người"
                       />
-                       <ArticleBlogSection
+                      <ArticleBlogSection
                         image={BlogSectionArticleBg}
                         topic="THƯƠNG"
                         title="Cởi Mở: Lần đầu lên giường với nhiều hơn một người"
                       />
-                       <ArticleBlogSection
+                      <ArticleBlogSection
                         image={BlogSectionArticleBg}
                         topic="THƯƠNG"
                         title="Cởi Mở: Lần đầu lên giường với nhiều hơn một người"
                       />
                     </div>
                     <div className="link__watchMore">
-                      <a href="#"><span>Xem tất cả bài viết</span> <AiOutlineRight/></a>
+                      <a href="#">
+                        <span>Xem tất cả bài viết</span> <AiOutlineRight />
+                      </a>
                     </div>
                   </div>
                 </Col>
@@ -193,24 +281,26 @@ const BlogSection = (props) => {
                         topic="THƯƠNG"
                         title="Cởi Mở: Lần đầu lên giường với nhiều hơn một người"
                       />
-                       <ArticleBlogSection
+                      <ArticleBlogSection
                         image={BlogSectionArticleBg}
                         topic="THƯƠNG"
                         title="Cởi Mở: Lần đầu lên giường với nhiều hơn một người"
                       />
-                       <ArticleBlogSection
+                      <ArticleBlogSection
                         image={BlogSectionArticleBg}
                         topic="THƯƠNG"
                         title="Cởi Mở: Lần đầu lên giường với nhiều hơn một người"
                       />
-                       <ArticleBlogSection
+                      <ArticleBlogSection
                         image={BlogSectionArticleBg}
                         topic="THƯƠNG"
                         title="Cởi Mở: Lần đầu lên giường với nhiều hơn một người"
                       />
                     </div>
                     <div className="link__watchMore">
-                      <a href="#"><span>Xem tất cả bài viết</span> <AiOutlineRight/></a>
+                      <a href="#">
+                        <span>Xem tất cả bài viết</span> <AiOutlineRight />
+                      </a>
                     </div>
                   </div>
                 </Col>
@@ -232,24 +322,26 @@ const BlogSection = (props) => {
                         topic="THƯƠNG"
                         title="Cởi Mở: Lần đầu lên giường với nhiều hơn một người"
                       />
-                       <ArticleBlogSection
+                      <ArticleBlogSection
                         image={BlogSectionArticleBg}
                         topic="THƯƠNG"
                         title="Cởi Mở: Lần đầu lên giường với nhiều hơn một người"
                       />
-                       <ArticleBlogSection
+                      <ArticleBlogSection
                         image={BlogSectionArticleBg}
                         topic="THƯƠNG"
                         title="Cởi Mở: Lần đầu lên giường với nhiều hơn một người"
                       />
-                       <ArticleBlogSection
+                      <ArticleBlogSection
                         image={BlogSectionArticleBg}
                         topic="THƯƠNG"
                         title="Cởi Mở: Lần đầu lên giường với nhiều hơn một người"
                       />
                     </div>
                     <div className="link__watchMore">
-                      <a href="#"><span>Xem tất cả bài viết</span> <AiOutlineRight/></a>
+                      <a href="#">
+                        <span>Xem tất cả bài viết</span> <AiOutlineRight />
+                      </a>
                     </div>
                   </div>
                 </Col>
@@ -269,31 +361,35 @@ const BlogSection = (props) => {
                         topic="THƯƠNG"
                         title="Cởi Mở: Lần đầu lên giường với nhiều hơn một người"
                       />
-                       <ArticleBlogSection
+                      <ArticleBlogSection
                         image={BlogSectionArticleBg}
                         topic="THƯƠNG"
                         title="Cởi Mở: Lần đầu lên giường với nhiều hơn một người"
                       />
-                       <ArticleBlogSection
+                      <ArticleBlogSection
                         image={BlogSectionArticleBg}
                         topic="THƯƠNG"
                         title="Cởi Mở: Lần đầu lên giường với nhiều hơn một người"
                       />
-                       <ArticleBlogSection
+                      <ArticleBlogSection
                         image={BlogSectionArticleBg}
                         topic="THƯƠNG"
                         title="Cởi Mở: Lần đầu lên giường với nhiều hơn một người"
                       />
                     </div>
                     <div className="link__watchMore">
-                      <a href="#"><span>Xem tất cả bài viết</span> <AiOutlineRight/></a>
+                      <a href="#">
+                        <span>Xem tất cả bài viết</span> <AiOutlineRight />
+                      </a>
                     </div>
                   </div>
                 </Col>
               </Row>
             </div>
             <div className="part2__button">
-              <Button>Xem thêm series <AiOutlineDown/></Button>
+              <Button>
+                Xem thêm series <AiOutlineDown />
+              </Button>
             </div>
           </section>
         </section>

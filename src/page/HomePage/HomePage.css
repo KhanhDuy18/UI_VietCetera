@@ -7,7 +7,7 @@ ul {
 }
 .homepage__containner {
   box-sizing: border-box;
-  padding: 0 176.5px;
+  padding: 0 11%;
 }
 
 .homepage__section1 .homepage__section--header {
@@ -52,7 +52,7 @@ ul {
   color: rgb(85 85 85 / var(--tw-text-opacity));
   margin-bottom: 0;
   margin-top: 1rem;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.7142857142857142em;
@@ -88,6 +88,7 @@ ul {
   align-items: flex-start;
   flex-wrap: wrap;
   margin-top: 88px;
+  position: relative;
 }
 .section5__left--body {
   margin-top: 24px;
@@ -106,7 +107,7 @@ ul {
   justify-content: flex-end;
   align-items: center;
 }
-.homepage__section5--right .section5__right--button button,
+.homepage__section5--button button,
 .homepage__section6 .section6__body--button button,
 .homepage__section7--button button{
   --tw-border-opacity: 1;
@@ -124,13 +125,13 @@ ul {
   transition-duration: 0.3s;
   vertical-align: middle;
 }
-.homepage__section5--right .section5__right--button button span,
+.homepage__section5--button button span,
 .homepage__section6 .section6__body--button button span,
 .homepage__section7--button button span {
   color: #333333;
   font-weight: 600;
 }
-.homepage__section5--right .section5__right--button button:hover,
+.homepage__section5--button button:hover,
 .homepage__section6 .section6__body--button button:hover,
 .homepage__section7--button button:hover {
   background-color: #f0f0f0;
@@ -167,111 +168,6 @@ ul {
   margin-bottom: 52px;
 }
 
-.homepage__section6--footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-self: center;
-  width: 100%;
-  box-sizing: border-box;
-  --tw-bg-opacity: 1;
-  background-color: rgb(247 245 242 / var(--tw-bg-opacity));
-  border-radius: 10px;
-}
-.section6__body--button Button{
-    margin-top: -50px;
-    margin-bottom: 24px;
-}
-.section6--footer__left{
-    margin: 0 84px;
-}
-.section6--footer__right {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-}
-.section6__footer--content .title {
-  --tw-text-opacity: 1;
-  color: rgb(41 41 41 / var(--tw-text-opacity));
-  font-family: Poppins, sans-serif;
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 1.375em;
-}
-.section6__footer--content .title span {
-  color: #b82929;
-}
-.section6__footer--content .desc {
-
-  --tw-text-opacity: 1;
-  color: rgb(85 85 85 / var(--tw-text-opacity));
-  margin-bottom: 0;
-  box-sizing: border-box;
-  margin-top: 0.5rem;
-  font-size: 14px;
-  line-height: 1.7142857142857142em;
-  font-family: Poppins, sans-serif;
-  font-weight: 400;
-
-  width: 70%;
-  margin-bottom: 24px;
-}
-.section6__footer--form {
-  width: 100%;
-}
-.section6__footer--form form {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-}
-.section6__footer--form form .formInpunt {
-  margin-right: 0.5rem;
-  width: 50%;
-}
-.section6__footer--form form input {
-  box-sizing: border-box;
-  outline-width: 0;
-  padding: 0.8rem 1rem 0.8rem;
-  border-radius: 0.5rem;
-  border: 0 solid #e5e7eb;
-  width: 100%;
-  font-size: 14px !important;
-  line-height: 1.7142857142857142em;
-  font-family: Poppins, sans-serif !important;
-  font-weight: 400 !important;
-}
-.section6__footer--form form Button {
-  --tw-border-opacity: 1;
-  --tw-bg-opacity: 1;
-  --tw-text-opacity: 1;
-  background-color: rgb(183 39 39 / var(--tw-bg-opacity));
-  border: none;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-  justify-content: center;
-  box-sizing: border-box;
-  height: 48px;
-  padding: 0.75rem 1rem;
-  align-items: center;
-  border-radius: 32px;
-  display: inline-flex;
-  justify-content: center;
-  text-transform: uppercase;
-  transition-duration: 0.3s;
-  vertical-align: middle;
-  font-family: Poppins, sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.7142857142857142em;
-  text-transform: uppercase;
-  border-radius: 8px !important;
-  width: 144px;
-}
-.section6__footer--form form Button:hover {
-    background-color: #e71d1d;
-}
-
 .homepage__section7{
   margin-top: 80px;
   margin-bottom: 96px;
@@ -281,7 +177,7 @@ ul {
   margin-top: 24px;
 
 }
-.homepage__section7--button{
+.homepage__section7--button,.homepage__section5--button{
   position: absolute;
   top: 56px;
   right: 0;

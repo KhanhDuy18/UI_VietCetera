@@ -395,7 +395,7 @@ const BlogDetail = (props) => {
             </div>
             <div className="specialBlog__body">
               <Row className="specialBlog__body--row">
-                <Col xs={12} lg={6} xl={4}>
+                <Col xs={12} sm={6} lg={6} xl={4}>
                   <MainPodcast
                     background={MainPodcastBg}
                     contentField="Bít tắt"
@@ -403,7 +403,7 @@ const BlogDetail = (props) => {
                     contentTitle="Bít Tất #173: Cha mẹ độc hại"
                   />
                 </Col>
-                <Col xs={12} lg={6} xl={4}>
+                <Col xs={12} sm={6} lg={6} xl={4}>
                   <MainPodcast
                     background={MainPodcastBg}
                     contentField="Bít tắt"
@@ -411,7 +411,7 @@ const BlogDetail = (props) => {
                     contentTitle="Bít Tất #173: Cha mẹ độc hại"
                   />
                 </Col>
-                <Col xs={12} lg={6} xl={4}>
+                <Col xs={12} sm={6} lg={6} xl={4}>
                   <MainPodcast
                     background={MainPodcastBg}
                     contentField="Bít tắt"
@@ -419,7 +419,7 @@ const BlogDetail = (props) => {
                     contentTitle="Bít Tất #173: Cha mẹ độc hại"
                   />
                 </Col>
-                <Col xs={12} lg={6} xl={4}>
+                <Col xs={12} sm={6} lg={6} xl={4}>
                   <MainPodcast
                     background={MainPodcastBg}
                     contentField="Bít tắt"
@@ -427,7 +427,7 @@ const BlogDetail = (props) => {
                     contentTitle="Bít Tất #173: Cha mẹ độc hại"
                   />
                 </Col>
-                <Col xs={12} lg={6} xl={4}>
+                <Col xs={112} sm={6} lg={6} xl={4}>
                   <MainPodcast
                     background={MainPodcastBg}
                     contentField="Bít tắt"
@@ -435,7 +435,7 @@ const BlogDetail = (props) => {
                     contentTitle="Bít Tất #173: Cha mẹ độc hại"
                   />
                 </Col>
-                <Col xs={12} lg={6} xl={4}>
+                <Col xs={12} sm={6} lg={6} xl={4}>
                   <MainPodcast
                     background={MainPodcastBg}
                     contentField="Bít tắt"

@@ -57,7 +57,7 @@
   /* text-transform: capitalize; */
   text-decoration: none !important;
   display: inline-block;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
 }
 
@@ -80,7 +80,7 @@
   color: #292929;
   font-weight: 600;
   text-overflow: ellipsis;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   margin-bottom: 24px 4 !important;
 }

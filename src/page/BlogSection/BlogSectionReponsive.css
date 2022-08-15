@@ -37,3 +37,24 @@
   }
   
 }
+@media  (min-width:740px) and (max-width:1100px){
+  .BlogSection__container {
+    padding: 40px 5%;
+    margin-bottom: 50px;
+  }
+  .BlogSection__body .BlogSection__body--part1 .part1__content .Article__content {
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  .BlogSection__body .BlogSection__body--part1 .part1__content .Article__content--img {
+    width: 100%;
+    order: 1;
+  }
+  .BlogSection__body--part2 .Article__content{
+    flex-direction: column;
+  }
+  .BlogSection__body--part2 .Article__content--img{
+    width: 100%;
+    order: 1;
+  }
+}

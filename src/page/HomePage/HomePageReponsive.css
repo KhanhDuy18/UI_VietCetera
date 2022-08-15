@@ -2,6 +2,38 @@
   .homepage__containner {
     padding: 0 4% ;
   }
+  .Articles{
+    margin-top: 24px;
+  }
+  .homepage__section4{
+    flex-direction: column;
+  }
+  .homepage__section4--left{
+    width: 100%;
+  }
+  .homepage__section4--right{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .homepage__section5{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .homepage__section5 .homepage__section5--left {
+    width: 100%;
+  }
+  .section5__left--body{
+    padding: 0 18%;
+  }
+  .homepage__section5 .homepage__section5--right {
+    width: 100%;
+    padding-top: 0;
+}
+.homepage__section7--body{
+  padding-top: 24px;
+}
 }
 @media (max-width: 740px) {
   .homepage__containner {
@@ -11,7 +43,6 @@
     margin: 40px 0 20px;
   }
   .homepage__section--header h2 {
-    font-family: "Poppins", sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 1.2em;
@@ -95,7 +126,7 @@
   .section6__body--button span{
     font-size: 14px;
   }
-  .homepage__section6--footer {
+  /* .homepage__section6--footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,7 +163,7 @@
   }
   .section6__footer--form form Button{
     width: 100%;
-  }
+  } */
 
   .homepage__section7{
    display: flex;

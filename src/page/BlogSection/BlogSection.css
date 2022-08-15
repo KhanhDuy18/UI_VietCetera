@@ -46,7 +46,7 @@
 .BlogSection__header--title h1 {
   font-size: 40px;
   line-height: 1.4em;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -135,7 +135,6 @@
   justify-content: space-between;
 }
 .BlogSection__body--part1 .part1__content .Article__container {
-  width: 31%;
   margin-bottom: 50px;
 }
 .BlogSection__body--part1 .part1__content .Article__container .timePost p {
@@ -207,7 +206,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .BlogSection__body--part2 .part2__button{
   display: flex;
@@ -227,7 +226,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 19px;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .BlogSection__body--part2 .part2__button Button:hover{
   background-color: #10a15b !important;
